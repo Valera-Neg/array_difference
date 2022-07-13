@@ -1,7 +1,6 @@
 function arrDiff(a, b) {
  
-  let diff = a.filter(e => b.indexOf(e) === -1);
-return diff;
+  return a.filter(e => !b.includes(e));
 }
 
 
